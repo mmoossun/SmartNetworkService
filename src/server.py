@@ -1,6 +1,6 @@
 from socket import *
 import os
-KEY = "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"
+KEY = "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"
 os.environ["OPENAI_API_KEY"] = KEY
 # API key가 잘 연결되었는지 확인
 from langchain.schema import (
@@ -12,7 +12,7 @@ from langchain.chat_models import ChatOpenAI
 def gpt(prompt):
     llm = ChatOpenAI(temperature=0.7,               # 창의성 (0.0 ~ 2.0) 
                  max_tokens=2048,             # 최대 토큰수
-                 model_name='gpt-4-turbo',  # 모델명
+                 model_name='gpt-3.5-turbo',  # 모델명
                 )
     # 질의내용
     
