@@ -10,7 +10,7 @@ from langchain.schema import (
 )
 from langchain.chat_models import ChatOpenAI
 
-KEY = "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"
+KEY = "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"
 # API key가 잘 연결되었는지 확인
 os.environ["OPENAI_API_KEY"] = KEY
 

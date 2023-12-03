@@ -10,5 +10,6 @@ setup(
         'tiktoken',
         'chromadb',
         'unstructured',
+        'PyQt5',
     ],
 )
